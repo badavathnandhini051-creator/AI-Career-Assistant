@@ -1,0 +1,27 @@
+[
+  {
+    "id": "career_001",
+    "input": "What skills should I learn for a Python developer internship?",
+    "expected_keywords": ["Python", "SQL", "Git", "APIs"]
+  },
+  {
+    "id": "career_002",
+    "input": "How can I improve my resume for an AI internship?",
+    "expected_keywords": ["projects", "skills", "keywords", "results"]
+  },
+  {
+    "id": "career_003",
+    "input": "Explain REST APIs to a beginner.",
+    "expected_keywords": ["HTTP", "GET", "POST", "JSON"]
+  },
+  {
+    "id": "career_004",
+    "input": "What is prompt engineering?",
+    "expected_keywords": ["prompt", "instructions", "context", "output"]
+  },
+  {
+    "id": "career_005",
+    "input": "What should I prepare for an LLM evaluation interview?",
+    "expected_keywords": ["accuracy", "hallucination", "test", "relevance"]
+  }
+]
