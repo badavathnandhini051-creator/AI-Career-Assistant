@@ -23,5 +23,30 @@
     "id": "career_005",
     "input": "What should I prepare for an LLM evaluation interview?",
     "expected_keywords": ["accuracy", "hallucination", "test", "relevance"]
+  },
+  {
+    "id": "career_006",
+    "input": "How can I evaluate whether an AI assistant gives relevant answers?",
+    "expected_keywords": ["evaluation", "relevance", "accuracy", "test"]
+  },
+  {
+    "id": "career_007",
+    "input": "What are common causes of hallucination in LLM applications?",
+    "expected_keywords": ["hallucination", "context", "prompt", "accuracy"]
+  },
+  {
+    "id": "career_008",
+    "input": "How can Python connect an AI assistant to a REST API?",
+    "expected_keywords": ["Python", "API", "HTTP", "JSON"]
+  },
+  {
+    "id": "career_009",
+    "input": "How should I test a chatbot before deploying a new prompt?",
+    "expected_keywords": ["test", "prompt", "evaluation", "results"]
+  },
+  {
+    "id": "career_010",
+    "input": "What should I check when reviewing an AI assistant conversation?",
+    "expected_keywords": ["relevance", "accuracy", "context", "hallucination"]
   }
 ]
