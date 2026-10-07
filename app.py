@@ -1,3 +1,5 @@
+import json
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 from llm import generate_response, analyze_resume
@@ -31,6 +33,6 @@ def chat(request: ChatRequest):
 def resume_analysis(request: ResumeRequest):
     try:
         result = analyze_resume(request.resume_text, request.target_role)
-        return {"result": result}
+        return json.loads(result)
     except Exception as exc:
         raise HTTPException(status_code=500, detail=str(exc))
